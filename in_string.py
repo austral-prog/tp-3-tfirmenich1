@@ -8,6 +8,7 @@ def check_vowels():
 	print("Contiene o:", "o" in nombre or "O" in nombre)
 	print("Contiene u:", "u" in nombre or "U" in nombre)
 
+check_vowels()
 
  def slice_simple():
     texto = "Awesome".lower()
@@ -16,4 +17,4 @@ def check_vowels():
     print (texto[2:5])
     print (texto[0:4]+texto[4:7])
 
-slice_simple ()
+slice_simple()
